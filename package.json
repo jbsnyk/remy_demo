@@ -1,0 +1,22 @@
+{
+  "name": "glob-demo",
+  "version": "1.0.0",
+  "description": "Demo project using glob 7.2.3 with breaking changes in 12.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "glob": "7.2.3",
+    "lodash": "4.17.20",
+    "minimist": "1.2.5"
+  },
+  "keywords": [
+    "glob",
+    "demo",
+    "security"
+  ],
+  "author": "Demo",
+  "license": "MIT"
+}
