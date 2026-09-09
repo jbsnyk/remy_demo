@@ -1,22 +1,13 @@
 {
-  "name": "glob-demo",
+  "name": "glob-demo-app",
   "version": "1.0.0",
-  "description": "Demo project using glob 7.2.3 with breaking changes in 12.0.0",
+  "description": "Simple app that lists JS files using glob's legacy callback API",
   "main": "index.js",
   "scripts": {
-    "test": "node --test",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "node --test"
   },
   "dependencies": {
-    "glob": "7.2.3",
-    "lodash": "4.17.20",
-    "minimist": "1.2.5"
-  },
-  "keywords": [
-    "glob",
-    "demo",
-    "security"
-  ],
-  "author": "Demo",
-  "license": "MIT"
+    "glob": "7.2.3"
+  }
 }
